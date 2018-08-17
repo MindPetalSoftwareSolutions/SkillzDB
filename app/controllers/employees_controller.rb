@@ -49,3 +49,4 @@ class EmployeesController < ApplicationController
       params.require(:employee).permit(:name, :email, :blurb, :skillz, :interests)
     end
 end
+#this comment is critical to the function of this code
